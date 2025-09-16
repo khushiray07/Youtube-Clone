@@ -1,10 +1,11 @@
-import image from 'next/image'
-import Button from '../components/Button'
+import MediaPlayer from '@/components/MediaPlayer';
 
 export default function Home() {
   return (
-    <>
-      <Button />
-    </>
-  )
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div>
+        <MediaPlayer />
+      </div>
+    </main>
+  );
 }
