@@ -4,6 +4,8 @@
     import React from 'react';
     import MediaPlayer from '@/components/MediaPlayer';
     import Suggestion from '@/components/Suggestion';
+  import DisplayComments from '@/components/DisplayComments';
+
     
     export default function Home() {
       return (
@@ -19,6 +21,7 @@
                 <Suggestion />
               </div>
               <div>
+                <DisplayComments />
               </div>
           </main>
           <footer className="p-4 text-center bg-gray-800">
